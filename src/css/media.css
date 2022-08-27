@@ -28,16 +28,8 @@
         display: none;
     }
 }
-@media (max-width:480px){
-    .firstScreen>.container{
-        row-gap: 80px;
-}
-    .firstScreen__info{
-        margin: 0 45px 115px;
-    }
 
-}
-@media (max-width:380px){
+@media (max-width:480px){
     .firstScreen__title{
         font-size: 28px;
         font-weight: 500;
