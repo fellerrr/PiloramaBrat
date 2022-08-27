@@ -51,5 +51,14 @@
     .firstScreen__info{
         margin: 0 45px 135px;
     }
+    .firstScreen__info::before {
+        width: 25px;
+        top: 17px;
+    }
+    .firstScreen__btnBuy{
+        margin: 74px 0px 0px 17px;
+        padding: 18px 25px;
+        font-size: 20px;
+    }
 }
 
