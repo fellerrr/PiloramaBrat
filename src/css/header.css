@@ -1,0 +1,45 @@
+.header {
+    background-color: transparent;
+    padding-bottom: 3px;
+    padding-top: 2px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header__logo{
+    width: 65px;
+    height: 50px;
+}
+.header__menu{
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    color: azure;
+}
+.header__item{
+    color: azure;
+}
+.header__tel{
+    display: flex;
+    column-gap: 10px;
+}
+.header__tel_icon{
+    height: 20px;
+    width: 20px;
+}
+.header__subtitle{
+    position: relative;
+}
+.header__subtitle::after{
+    content: 'Связаться с менеджером';
+    color: #FF6A00;
+    position: absolute;
+    scale: 50%;
+    width: 203%;
+    bottom: -58%;
+    right: -74%;
+}

@@ -1,0 +1,28 @@
+@import "../fonts/Montserrat/stylesheet.css";
+@import "header.css";
+@import "firstScreen.css";
+@import "seconScreen.css";
+@import "pricelist.css";
+@import "huita.css";
+@import "media.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+
+}
+
+

@@ -1,0 +1,86 @@
+.firstScreen{
+    background: url("../image/bg1.jpg") center/cover no-repeat;
+    color: aliceblue;
+    position: relative;
+
+}
+.firstScreen::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #00000070;
+    z-index: 2;
+}
+
+.firstScreen>.container{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 140px;
+}
+.firstScreen__content{
+    display: flex;
+    flex-direction: column;
+}
+.firstScreen__info{
+    margin: 0 45px 145px;
+    padding: 0 15px;
+    position: relative;
+}
+.firstScreen__info::before{
+    content: '';
+    height: 4px;
+    width: 30px;
+    top: 25px;
+    left: -20px;
+    background: #FF6A00;
+    position: absolute;
+}
+.firstScreen__title{
+    font-size: 44px;
+    font-weight: 600;
+}
+.firstScreen__subtitle{
+    font-size: 18px;
+}
+.firstScreen__btnBuy{
+    border: none;
+    border-radius: 20px;
+    background-color: #FF6A00;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 10px 24px;
+    font-size: 14px;
+}
+.firstScreen__down{
+    margin: 0 auto;
+}
+.strelka-bottom-1 {
+    margin: 30px auto -10px;
+    border-radius: 50%;
+    border: 1px solid #337AB7;
+    width: 20px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0 0 12px 4px #BFE2FF;
+    background: radial-gradient(#ffffff50, #BFE2FF);
+
+}
+.strelka-bottom-1 {
+    transform: rotate(270deg);
+}
+.strelka-bottom-1 path {
+    fill: rgba(191, 226, 255, 0.6);
+    stroke-width: 2;
+    stroke: #337AB7;
+    transition: fill 0.5s ease-out;
+}
+.strelka-bottom-1:hover path{
+    fill: #FF6A00/*#337AB7;*/
+}

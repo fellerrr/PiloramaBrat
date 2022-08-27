@@ -1,0 +1,8 @@
+.secondScreen__div{
+    width: 100%;
+    height: 200px;
+    background-color: #ff3f;
+}
+.svgtest:hover path{
+    fill: red !important;
+}
