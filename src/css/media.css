@@ -39,14 +39,17 @@
 }
 @media (max-width:380px){
     .firstScreen__title{
-        font-size: 22px;
+        font-size: 28px;
         font-weight: 500;
     }
     .firstScreen__subtitle{
         display: none;
     }
     .firstScreen>.container{
-         row-gap: 80px;
+         row-gap: 150px;
+    }
+    .firstScreen__info{
+        margin: 0 45px 135px;
     }
 }
 

@@ -31,15 +31,24 @@
     height: 20px;
     width: 20px;
 }
+.header__pozvoni{
+    display: flex;
+    flex-direction: column;
+}
 .header__subtitle{
-    position: relative;
+    font-size: large;
 }
-.header__subtitle::after{
-    content: 'Связаться с менеджером';
-    color: #FF6A00;
-    position: absolute;
-    scale: 50%;
-    width: 203%;
-    bottom: -58%;
-    right: -74%;
+.header__subtitle__tel{
+    color: #FF6A00;!important;
+    text-align: right;
+    font-size: xx-small;
 }
+/*.header__subtitle::after{*/
+/*    content: 'Связаться с менеджером';*/
+/*    color: #FF6A00;*/
+/*    position: absolute;*/
+/*    scale: 50%;*/
+/*    width: 203%;*/
+/*    bottom: -58%;*/
+/*    right: -74%;*/
+/*}*/
