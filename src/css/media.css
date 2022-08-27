@@ -48,7 +48,8 @@
         top: 17px;
     }
     .firstScreen__btnBuy{
-        margin: 74px 0px 0px 17px;
+        color: red;
+        margin: 74px 0 0 17px;
         padding: 18px 25px;
         font-size: 20px;
     }
